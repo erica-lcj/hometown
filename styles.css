@@ -1,0 +1,84 @@
+/**
+red #E63946
+pink #EC9A9A
+orange #FFE4C7
+whitey blue #F1FAEE
+blue #CDEAE5
+bluer #A8DADC
+dark blue #457B9D
+navy ##1D3557
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+.hero {
+    background-image: url(images/mews.jpeg);
+    background-size: cover;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    color: #F8EFDB;
+    background-color: #1D3557
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    border: 4px solid #FCFCD4
+    
+}
+
+.activities {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    padding: 10px; 
+    background-color: #F99199;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #E6F4F1;
+    margin-bottom: 15px;
+}
+
+
+.activity {
+    text-align: center;
+    width: 500px;   
+    height: auto;
+    margin: 5px;
+}
+    
+.activity:hover {
+    border-bottom: 5px solid #FCFCD4;
+    transform:scale(1.1);
+    background-color: #FFB3A6;
+    border-radius: 20px;
+    color:white;
+}
+
+
+.guide {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #A6D5FF;
+    align-items: center;
+    border: 3px solid #f8efdb;
+    margin: auto;
+    padding: 10px;
+    color: #F1FAEE;
+    border-radius: 45px;
+    height: auto;
+    width: 400px;
+}
+
+.guide:hover{
+    background-color: #009DF8;
+    transform:scale(1.1);
+}
